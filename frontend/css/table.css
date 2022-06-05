@@ -1,0 +1,82 @@
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 35%;
+    height: 65%;
+    border: 5px solid;
+    margin: 11% 12%;
+    padding: 30px ;
+    border-radius: 20px;
+    font-size: 20px;
+    
+   
+}
+#submit{
+    margin-top: 20px;
+    background-color: rgb(54, 158, 123);
+    color: white;
+    padding: 15px;
+    border: nope;
+    font-size: 20px;
+    font-family: rubik;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+
+
+input[type="date"]{
+    
+    width: 70%;
+    margin:10px auto;
+    font-size:20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+}
+
+input[type=radio] {
+    margin:10px;
+    padding:20px;
+   
+}
+input[type="number"]{
+    margin:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    width: 60%;
+    margin:5px;
+
+}
+
+hr{
+    margin-top:25px;
+    margin-bottom:25px;
+    width:100%;
+    color: white;
+    
+}
+
+
+select{
+    margin:10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    font-size: 20px;
+    width: 86%;
+    margin:5px;
+
+    
+}
+
+
+
+
+
+
+

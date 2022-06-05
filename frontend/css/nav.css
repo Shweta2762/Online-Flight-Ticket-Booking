@@ -1,0 +1,51 @@
+header{
+    height: 8%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(42, 182, 82, 0.808);
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+#menu li a:hover {
+    color: rgb(255, 0, 0);
+  }
+
+section{
+    overflow: hidden;
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+#logo{
+    width: 6%;
+    border-radius: 100%;
+    border: 5px solid rgb(27, 129, 212);
+}
+
+
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+

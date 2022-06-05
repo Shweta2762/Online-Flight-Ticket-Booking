@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+#helluu{ 
+  background-image:url("../image/2.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background:transparent;
+  position: relative;
+}
+#helluu::before{
+  content: '';
+  position: absolute;
+  width: 100%;
+  background:transparent;
+  clip-path: inset(47% 0 0 0);
+  z-index: -1;
+  height: 100%;
+}
+::selection{
+  background:	#FF676D;
+  color: #fff;
+}
+.containerr{
+  max-width: 950px;
+  width: 100%;
+  overflow: hidden;
+  padding: 80px 0;
+}
+.containerr .main-card1{
+  display: flex;
+  justify-content: space-evenly;
+  width: 200%;
+  transition: 1s;
+}
+#two:checked ~ .main-card1{
+  margin-left: -100%;
+}
+.containerr .main-card1 .cards1{
+  width: calc(100% / 2 - 10px);
+  display: flex;
+
+  flex-wrap: wrap;
+  margin: 0 20px;
+  justify-content: space-between;
+}
+.main-card1 .cards1 .card1{
+  width: calc(100% / 3 - 10px);
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.4s ease;
+}
+.main-card1 .cards1 .card1:hover{
+  transform: translateY(-15px);
+}
+.cards1 .card1 .content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cards1 .card1 .content .imga{
+  height: 130px;
+  width: 130px;
+  border-radius: 51%;
+
+  
+  
+ 
+}
+.card1 .content .imga #imgg{
+  height: 100%;
+  width: 100%;
+  border: 3px solid #ffff;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.card1 .content .name1{
+  font-size: 20px;
+  font-weight: 500;
+}
+.card1 .content .job{
+  font-size: 20px;
+  color: #ffffff;
+}
+.card1 .content .media-icons{
+  margin-top: 10px;
+  display: flex;
+
+}
+.media-icons a{
+  text-align: center;
+  line-height: 33px;
+  height: 35px;
+  width: 35px;
+  margin: 0 0px;
+  font-size: 14px;
+  color: #FFF;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: #ffffff;
+  transition: all 0.3s ease;
+}
+.media-icons a:hover{
+  color: #FF676D;
+  background-color: #fff;
+  border-color: #FF676D;
+}
+ .containerr .buttton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.buttton label{
+  height: 15px;
+  width: 15px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.buttton label.active{
+  width: 35px;
+}
+#one:checked ~ .buttton .one{
+  width: 35px;
+}
+#one:checked ~ .buttton .two{
+  width: 15px;
+}
+#two:checked ~ .buttton .one{
+  width: 15px;
+}
+#two:checked ~ .buttton .two{
+  width: 35px;
+}
+
+
+.card1{
+  border: 3px solid black;
+}
+#imga
+{  border: 1px solid black;}
+#helluu{
+  background-image:url("../image/2.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
